@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.WattWisePro" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorAccent">#6A8FFF</item>
+        <item name="colorPrimary">#5B8DFF</item>
+        <item name="colorPrimaryDark">#1F2B38</item>
+    </style>
+
+    <style name="Theme.WattWisePro" parent="Base.Theme.WattWisePro" />
+</resources>

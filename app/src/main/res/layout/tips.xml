@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/app_background">
+
+    <!-- Top Header Bar -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/white"
+        android:elevation="4dp"
+        android:minHeight="80dp">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="42dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/baseline_arrow_back_24"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/wattwiselogo"
+            app:srcCompat="@drawable/w_wise_logo" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_button3squadacolor"
+            android:fontFamily="@font/squadaone_regular"
+            android:gravity="center"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/tips"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp" />
+    </RelativeLayout>
+
+    <!-- Scrollable Content Area -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Introduction Card -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_button_light_blue"
+                android:padding="20dp"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Energy Saving Tips"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:textColor="@color/dark_blue"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Practical tips to reduce energy consumption and save on electricity bills."
+                    android:fontFamily="@font/squadaone_regular"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:lineSpacingExtra="4dp" />
+            </LinearLayout>
+
+            <!-- Tip Card 1: Electric Fan -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_button_light_blue"
+                android:padding="18dp"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="🌀 ELECTRIC FAN"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:textColor="@color/dark_blue"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="12dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="✓ DO"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:textColor="@color/dark_blue"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Do lubricate the rotor shaft with machine oil\n  Why: Dry shafts cause friction, making the motor draw more current.\n\n• Do check the capacitor for proper μF rating\n  Why: A weak capacitor causes low speed and higher watt consumption.\n\n• Do touch the motor housing occasionally to check overheating\n  Why: Overheated windings increase resistance and wattage.\n\n• Do tighten the oscillation gearbox if movement is jerky\n  Why: A stuck gearbox forces the motor to use more torque.\n\n• Do ensure the blade angle is installed correctly\n  Why: Wrong aerodynamics reduce airflow, causing users to raise fan speed unnecessarily."
+                    android:fontFamily="@font/squadaone_regular"
+                    android:textColor="@color/primary_text"
+                    android:textSize="13sp"
+                    android:lineSpacingExtra="4dp"
+                    android:layout_marginBottom="12dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="✗ DON'T"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:textColor="@color/highlighted_text_red"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Don't run the fan with a failing capacitor\n  Why: Motors without proper starting assistance pull higher current.\n\n• Don't use warped or unbalanced blades\n  Why: They cause vibration, increasing load on the motor.\n\n• Don't let motor vent holes clog\n  Why: Poor cooling raises motor temperature and energy draw.\n\n• Don't position fans too close to walls\n  Why: Air recirculates instead of circulating properly, lowering efficiency.\n\n• Don't force oscillation when gears are stiff\n  Why: The motor compensates with extra torque, increasing power consumption."
+                    android:fontFamily="@font/squadaone_regular"
+                    android:textColor="@color/primary_text"
+                    android:textSize="13sp"
+                    android:lineSpacingExtra="4dp" />
+            </LinearLayout>
+
+            <!-- Tip Card 2: Air Conditioner -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_button_light_blue"
+                android:padding="18dp"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="❄️ AIR CONDITIONER"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:textColor="@color/dark_blue"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="12dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="✓ DO"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:textColor="@color/dark_blue"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Do clean the evaporator coil every 3-6 months\n  Why: Dust blocks heat absorption, forcing the compressor to run longer and draw more watts.\n\n• Do keep the outdoor unit fins straight (use a fin comb)\n  Why: Bent fins restrict airflow, raising condenser pressure and increasing compressor load.\n\n• Do check if the drainpipe is clogged\n  Why: Excess moisture inside raises humidity load, making the AC cool longer and consume more energy.\n\n• Do keep at least 12 inches clearance around the outdoor condenser\n  Why: Restricted outdoor airflow causes higher head pressure, making the AC pull more current.\n\n• Do match fan speed to room size\n  Why: High fan speed in a small room confuses the thermostat sensing, causing inefficient cooling cycles."
+                    android:fontFamily="@font/squadaone_regular"
+                    android:textColor="@color/primary_text"
+                    android:textSize="13sp"
+                    android:lineSpacingExtra="4dp"
+                    android:layout_marginBottom="12dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="✗ DON'T"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:textColor="@color/highlighted_text_red"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Don't place the outdoor unit where hot air recirculates\n  Why: Hot air re-entering the condenser decreases cooling efficiency and forces the compressor to overwork.\n\n• Don't install the indoor unit above heat sources\n  Why: Temperature sensors detect hotter air and keep the compressor running unnecessarily.\n\n• Don't run the AC with a bent blower wheel\n  Why: It causes motor imbalance, requiring more torque and electricity to maintain speed.\n\n• Don't allow frost on the evaporator coil\n  Why: Frost insulates the coil, reducing heat absorption and forcing longer cooling cycles.\n\n• Don't angle the louvers upward in small rooms\n  Why: It misleads the thermostat with warm air readings, extending compressor run time."
+                    android:fontFamily="@font/squadaone_regular"
+                    android:textColor="@color/primary_text"
+                    android:textSize="13sp"
+                    android:lineSpacingExtra="4dp" />
+            </LinearLayout>
+
+            <!-- Tip Card 3: Television -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_button_light_blue"
+                android:padding="18dp"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="📺 TELEVISION"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:textColor="@color/dark_blue"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="12dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="✓ DO"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:textColor="@color/dark_blue"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Do enable Automatic Brightness Limiter (ABL)\n  Why: It reduces backlight power when bright scenes appear, cutting wattage.\n\n• Do activate local dimming (if LED TV)\n  Why: Only needed LED zones light up, reducing full-panel power usage.\n\n• Do revert refresh rate to 60Hz outside gaming\n  Why: 120Hz and 144Hz panels double LED and processor workload.\n\n• Do reduce backlight scanning settings (MotionFlow/TruMotion)\n  Why: These modes increase backlight duty cycles and power draw.\n\n• Do ensure ventilation around the TV's power supply board\n  Why: Overheating PSU boards pull extra current and shorten lifespan."
+                    android:fontFamily="@font/squadaone_regular"
+                    android:textColor="@color/primary_text"
+                    android:textSize="13sp"
+                    android:lineSpacingExtra="4dp"
+                    android:layout_marginBottom="12dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="✗ DON'T"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:textColor="@color/highlighted_text_red"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Don't keep HDMI-CEC enabled if unused\n  Why: Devices can wake the TV or partially power circuits, increasing standby consumption.\n\n• Don't force HDR mode on SDR content\n  Why: HDR maxes out brightness and color processing, increasing energy use.\n\n• Don't use high color temperature settings\n  Why: &quot;Cool/Blue&quot; temperatures drive LEDs at higher intensity.\n\n• Don't mount the TV on sealed walls without vents\n  Why: Trapped heat raises the power supply load and wattage.\n\n• Don't enable instant-on mode\n  Why: TV stays partially powered, consuming significantly more standby watts."
+                    android:fontFamily="@font/squadaone_regular"
+                    android:textColor="@color/primary_text"
+                    android:textSize="13sp"
+                    android:lineSpacingExtra="4dp" />
+            </LinearLayout>
+
+            <!-- Tip Card 4: Refrigerator -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_button_light_blue"
+                android:padding="18dp"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="🧊 REFRIGERATOR"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:textColor="@color/dark_blue"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="12dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="✓ DO"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:textColor="@color/dark_blue"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Do check the condenser fan for smooth spinning\n  Why: A slow or stuck fan prevents heat removal, making the compressor run hotter and longer.\n\n• Do keep items away from the thermistor sensor\n  Why: Blocking the sensor gives false temperature readings, causing inefficient cooling cycles.\n\n• Do recalibrate the temperature control dial occasionally\n  Why: Older controls drift over time and cause the compressor to cycle excessively.\n\n• Do ensure the refrigerator is perfectly level\n  Why: An unlevel fridge causes poor compressor oil return, reducing efficiency.\n\n• Do maintain a 5 cm gap from cabinets/surfaces\n  Why: The condenser coils need space to dissipate heat properly."
+                    android:fontFamily="@font/squadaone_regular"
+                    android:textColor="@color/primary_text"
+                    android:textSize="13sp"
+                    android:lineSpacingExtra="4dp"
+                    android:layout_marginBottom="12dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="✗ DON'T"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:textColor="@color/highlighted_text_red"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Don't block the return air vents inside\n  Why: Cold air circulation is interrupted, causing uneven cooling and overworking the compressor.\n\n• Don't push the fridge so far back that coils touch the wall\n  Why: Heat cannot escape, causing extremely high compressor load.\n\n• Don't store items on top where heat escapes\n  Why: Many models release heat upward; blocking this increases power draw.\n\n• Don't operate the fridge in &gt;43°C environments\n  Why: Compressors are not designed for excessive ambient heat and draw higher amps.\n\n• Don't ignore rapid compressor ON/OFF cycling\n  Why: This indicates a failing relay or thermostat, which causes huge energy spikes."
+                    android:fontFamily="@font/squadaone_regular"
+                    android:textColor="@color/primary_text"
+                    android:textSize="13sp"
+                    android:lineSpacingExtra="4dp" />
+            </LinearLayout>
+
+            <!-- Tip Card 5: Washing Machine -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_button_light_blue"
+                android:padding="18dp"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="🌀 WASHING MACHINE"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:textColor="@color/dark_blue"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="12dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="✓ DO"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:textColor="@color/dark_blue"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Do clean the inlet filter mesh weekly\n  Why: A clogged filter reduces water flow, making the motor work longer.\n\n• Do check drum rotation smoothness\n  Why: Stiff rotation indicates worn bearings, which increase motor torque demand.\n\n• Do use high-efficiency (HE) detergents\n  Why: HE detergents reduce drag from excess foam, lowering motor load.\n\n• Do recalibrate load sensors (if supported)\n  Why: Incorrect calibration makes the machine spin harder or longer than needed.\n\n• Do clear the drain pump filter monthly\n  Why: Blocked pumps consume more power trying to push water out."
+                    android:fontFamily="@font/squadaone_regular"
+                    android:textColor="@color/primary_text"
+                    android:textSize="13sp"
+                    android:lineSpacingExtra="4dp"
+                    android:layout_marginBottom="12dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="✗ DON'T"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:textColor="@color/highlighted_text_red"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Don't operate with noisy bearings\n  Why: Damaged bearings increase resistance and drastically raise power draw.\n\n• Don't place the washer on uneven flooring\n  Why: Imbalance forces the motor to compensate repeatedly.\n\n• Don't ignore over-foaming conditions\n  Why: Excess bubbles trick sensors and extend rinse cycles, increasing energy use.\n\n• Don't use the washer when water pressure is too low\n  Why: Low pressure delays filling, causing the motor to remain active longer.\n\n• Don't leave the lint trap full\n  Why: It makes the drain pump strain and run longer."
+                    android:fontFamily="@font/squadaone_regular"
+                    android:textColor="@color/primary_text"
+                    android:textSize="13sp"
+                    android:lineSpacingExtra="4dp" />
+            </LinearLayout>
+
+            <!-- Bottom Spacing -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Bottom Navigation -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:itemIconSize="33dp"
+        app:itemIconTint="@color/bottom_nav_colors"
+        app:menu="@menu/bottom_nav_menu" />
+
+</LinearLayout>

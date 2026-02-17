@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Top Bar with Logo -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/wattwiselogo"
+            app:srcCompat="@drawable/w_wise_logo" />
+    </RelativeLayout>
+
+    <!-- Scrollable Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="16dp">
+
+    <!-- Live Consumption Card -->
+    <LinearLayout
+        android:id="@+id/liveContainer"
+        android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_button_light_blue"
+                android:gravity="center"
+                android:orientation="vertical"
+        android:padding="16dp"
+                android:layout_marginTop="10dp">
+
+                <!-- Top Row: kWh and W -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="8dp">
+
+                    <!-- Energy (kWh) -->
+        <LinearLayout
+            android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/ic_lightning_bolt"
+                            android:layout_marginEnd="8dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center">
+
+            <TextView
+                                android:id="@+id/tvEnergyValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/squadaone_regular"
+                android:text="0.0"
+                                android:textColor="@color/dark_blue"
+                android:textSize="36sp" />
+
+            <TextView
+                                android:id="@+id/tvEnergyUnit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/squadaone_regular"
+                android:text="kWh"
+                                android:textColor="@color/dark_blue"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <!-- Power (W) -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/ic_electric_plug"
+                            android:layout_marginEnd="8dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/tvPowerValue"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/squadaone_regular"
+                                android:text="0.0"
+                                android:textColor="@color/dark_blue"
+                                android:textSize="36sp" />
+
+                            <TextView
+                                android:id="@+id/tvPowerUnit"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/squadaone_regular"
+                                android:text="W"
+                                android:textColor="@color/dark_blue"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- Bottom Row: V and A -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="8dp">
+
+                    <!-- Voltage (V) -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/ic_battery"
+                            android:layout_marginEnd="8dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/tvVoltageValue"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/squadaone_regular"
+                                android:text="0.0"
+                                android:textColor="@color/dark_blue"
+                                android:textSize="36sp" />
+
+                            <TextView
+                                android:id="@+id/tvVoltageUnit"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/squadaone_regular"
+                                android:text="V"
+                                android:textColor="@color/dark_blue"
+                android:textSize="20sp" />
+        </LinearLayout>
+                    </LinearLayout>
+
+                    <!-- Current (A) -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/ic_water_droplet"
+                            android:layout_marginEnd="8dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/tvCurrentValue"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/squadaone_regular"
+                                android:text="0.0"
+                                android:textColor="@color/dark_blue"
+                                android:textSize="36sp" />
+
+                            <TextView
+                                android:id="@+id/tvCurrentUnit"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/squadaone_regular"
+                                android:text="A"
+                                android:textColor="@color/dark_blue"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+    </LinearLayout>
+
+                <!-- Live usage date text inside the card -->
+    <TextView
+        android:id="@+id/tvLiveDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/squadaone_regular"
+        android:gravity="center"
+                    android:text="Live usage: November 15"
+                    android:textColor="@color/highlighted_text_red"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="8dp" />
+            </LinearLayout>
+
+            <!-- Usage Threshold Section -->
+            <LinearLayout
+                android:id="@+id/thresholdContainer"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/threshold_card"
+                android:padding="16dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Usage Threshold"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:textColor="@color/dark_blue"
+        android:textSize="20sp"
+        android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_marginBottom="10dp" />
+
+                <EditText
+                    android:id="@+id/etThreshold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter threshold in Watts (W)"
+                    android:inputType="numberDecimal"
+                    android:textSize="16sp"
+                    android:padding="12dp"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:backgroundTint="#FFFFFF"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/secondary_text"
+                    android:layout_marginBottom="10dp" />
+
+                <TextView
+                    android:id="@+id/tvThresholdStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Current: 0.0 W / Limit: 5000.0 W"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:textColor="@color/dark_blue"
+                    android:textSize="14sp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <!-- Notification Section -->
+            <RelativeLayout
+                android:id="@+id/textViewNotification"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_button_light_blue">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:gravity="center_vertical"
+                    android:text="Notification"
+                    android:textColor="@color/dark_blue"
+                    android:textSize="30sp" />
+
+                <Switch
+                    android:id="@+id/switchNotification"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="20dp"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnDaily"
+        android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:background="@drawable/button_light_blue"
+                android:elevation="0dp"
+                android:stateListAnimator="@null"
+        android:fontFamily="@font/squadaone_regular"
+        android:gravity="center"
+                android:text="DAILY"
+                android:textColor="@color/dark_blue"
+                android:textSize="40sp"
+                android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/btnWeekly"
+        android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:background="@drawable/button_medium_blue"
+                android:elevation="0dp"
+                android:stateListAnimator="@null"
+        android:fontFamily="@font/squadaone_regular"
+        android:gravity="center"
+                android:text="WEEKLY"
+                android:textColor="@color/dark_blue"
+                android:textSize="40sp"
+                android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btnMonthly"
+        android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:background="@drawable/button_dark_blue"
+                android:elevation="0dp"
+                android:stateListAnimator="@null"
+        android:fontFamily="@font/squadaone_regular"
+        android:gravity="center"
+                android:text="MONTHLY"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Bottom Navigation -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:itemIconSize="33dp"
+        app:itemIconTint="@color/bottom_nav_colors"
+        app:menu="@menu/bottom_nav_menu" />
+
+</LinearLayout>

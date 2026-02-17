@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Selected state (clicked/active) - Primary navy text for active home icon -->
+    <item android:color="#1F2B38" android:state_checked="true"/>
+    <!-- Default state (unselected) - Icons color for inactive icons -->
+    <item android:color="#526A8F"/>
+</selector>

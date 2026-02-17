@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Calendar Date Text Appearance -->
+    <style name="CalendarDateTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#1E2940</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Calendar Week Day Text Appearance -->
+    <style name="CalendarWeekDayTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#1E2940</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Calendar Header Text Appearance -->
+    <style name="CalendarHeaderTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#1E2940</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
+
