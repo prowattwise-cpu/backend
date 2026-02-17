@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Top Bar with Logo, Back Button, Monthly Text, and Profile -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="42dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/baseline_arrow_back_24"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/wattwiselogo"
+            app:srcCompat="@drawable/w_wise_logo" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/squadaone_regular"
+            android:text="@string/monthly_usage"
+            android:textColor="@color/black"
+            android:textSize="45sp" />
+    </RelativeLayout>
+
+    <!-- Scrollable Content Area -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <!-- January -->
+            <RelativeLayout
+                android:id="@+id/textViewJanuary"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_button_light_blue">
+
+                <TextView
+                    android:id="@+id/January"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:text="@string/january"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/LineJanuary"
+                    android:layout_width="0dp"
+                    android:layout_height="2dp"
+                    android:layout_toEndOf="@id/January"
+                    android:layout_toStartOf="@id/kwhJanuary"
+                    android:layout_alignBaseline="@id/January"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@color/black" />
+
+                <TextView
+                    android:id="@+id/kwhJanuary"
+                    android:layout_width="110dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:text="-----/kWh"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <!-- February -->
+            <RelativeLayout
+                android:id="@+id/textViewFebruary"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button_light_blue">
+
+                <TextView
+                    android:id="@+id/FebruaryLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:text="@string/february"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/LineFebruary"
+                    android:layout_width="0dp"
+                    android:layout_height="2dp"
+                    android:layout_toEndOf="@id/FebruaryLabel"
+                    android:layout_toStartOf="@id/kwhFebruary"
+                    android:layout_alignBaseline="@id/FebruaryLabel"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@color/black" />
+
+                <TextView
+                    android:id="@+id/kwhFebruary"
+                    android:layout_width="110dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:text="-----/kWh"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <!-- March -->
+            <RelativeLayout
+                android:id="@+id/textViewMarch"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button_light_blue">
+
+                <TextView
+                    android:id="@+id/MarchLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:text="@string/march"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/LineMarch"
+                    android:layout_width="0dp"
+                    android:layout_height="2dp"
+                    android:layout_toEndOf="@id/MarchLabel"
+                    android:layout_toStartOf="@id/kwhMarch"
+                    android:layout_alignBaseline="@id/MarchLabel"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@color/black" />
+
+                <TextView
+                    android:id="@+id/kwhMarch"
+                    android:layout_width="110dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:text="-----/kWh"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <!-- April -->
+            <RelativeLayout
+                android:id="@+id/textViewApril"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button_light_blue">
+
+                <TextView
+                    android:id="@+id/AprilLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:text="@string/april"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/LineApril"
+                    android:layout_width="0dp"
+                    android:layout_height="2dp"
+                    android:layout_toEndOf="@id/AprilLabel"
+                    android:layout_toStartOf="@id/kwhApril"
+                    android:layout_alignBaseline="@id/AprilLabel"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@color/black" />
+
+                <TextView
+                    android:id="@+id/kwhApril"
+                    android:layout_width="110dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:text="-----/kWh"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <!-- May -->
+            <RelativeLayout
+                android:id="@+id/textViewMay"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button_light_blue">
+
+                <TextView
+                    android:id="@+id/MayLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:text="@string/may"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/LineMay"
+                    android:layout_width="0dp"
+                    android:layout_height="2dp"
+                    android:layout_toEndOf="@id/MayLabel"
+                    android:layout_toStartOf="@id/kwhMay"
+                    android:layout_alignBaseline="@id/MayLabel"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@color/black" />
+
+                <TextView
+                    android:id="@+id/kwhMay"
+                    android:layout_width="110dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:text="-----/kWh"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <!-- June -->
+            <RelativeLayout
+                android:id="@+id/textViewJune"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button_light_blue">
+
+                <TextView
+                    android:id="@+id/JuneLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:text="@string/june"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/LineJune"
+                    android:layout_width="0dp"
+                    android:layout_height="2dp"
+                    android:layout_toEndOf="@id/JuneLabel"
+                    android:layout_toStartOf="@id/kwhJune"
+                    android:layout_alignBaseline="@id/JuneLabel"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@color/black" />
+
+                <TextView
+                    android:id="@+id/kwhJune"
+                    android:layout_width="110dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:text="-----/kWh"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <!-- July -->
+            <RelativeLayout
+                android:id="@+id/textViewJuly"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button_light_blue">
+
+                <TextView
+                    android:id="@+id/JulyLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:text="@string/july"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/LineJuly"
+                    android:layout_width="0dp"
+                    android:layout_height="2dp"
+                    android:layout_toEndOf="@id/JulyLabel"
+                    android:layout_toStartOf="@id/kwhJuly"
+                    android:layout_alignBaseline="@id/JulyLabel"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@color/black" />
+
+                <TextView
+                    android:id="@+id/kwhJuly"
+                    android:layout_width="110dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:text="-----/kWh"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <!-- August -->
+            <RelativeLayout
+                android:id="@+id/textViewAugust"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button_light_blue">
+
+                <TextView
+                    android:id="@+id/AugustLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:text="@string/august"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/LineAugust"
+                    android:layout_width="0dp"
+                    android:layout_height="2dp"
+                    android:layout_toEndOf="@id/AugustLabel"
+                    android:layout_toStartOf="@id/kwhAugust"
+                    android:layout_alignBaseline="@id/AugustLabel"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@color/black" />
+
+                <TextView
+                    android:id="@+id/kwhAugust"
+                    android:layout_width="110dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:text="-----/kWh"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <!-- September -->
+            <RelativeLayout
+                android:id="@+id/textViewSeptember"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button_light_blue">
+
+                <TextView
+                    android:id="@+id/SeptemberLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:text="@string/september"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/LineSeptember"
+                    android:layout_width="0dp"
+                    android:layout_height="2dp"
+                    android:layout_toEndOf="@id/SeptemberLabel"
+                    android:layout_toStartOf="@id/kwhSeptember"
+                    android:layout_alignBaseline="@id/SeptemberLabel"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@color/black" />
+
+                <TextView
+                    android:id="@+id/kwhSeptember"
+                    android:layout_width="110dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:text="-----/kWh"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <!-- October -->
+            <RelativeLayout
+                android:id="@+id/textViewOctober"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button_light_blue">
+
+                <TextView
+                    android:id="@+id/OctoberLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:text="@string/october"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/LineOctober"
+                    android:layout_width="0dp"
+                    android:layout_height="2dp"
+                    android:layout_toEndOf="@id/OctoberLabel"
+                    android:layout_toStartOf="@id/kwhOctober"
+                    android:layout_alignBaseline="@id/OctoberLabel"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@color/black" />
+
+                <TextView
+                    android:id="@+id/kwhOctober"
+                    android:layout_width="110dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:text="-----/kWh"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <!-- November -->
+            <RelativeLayout
+                android:id="@+id/textViewNovember"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button_light_blue">
+
+                <TextView
+                    android:id="@+id/NovemberLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:text="@string/november"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/LineNovember"
+                    android:layout_width="0dp"
+                    android:layout_height="2dp"
+                    android:layout_toEndOf="@id/NovemberLabel"
+                    android:layout_toStartOf="@id/kwhNovember"
+                    android:layout_alignBaseline="@id/NovemberLabel"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@color/black" />
+
+                <TextView
+                    android:id="@+id/kwhNovember"
+                    android:layout_width="110dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:text="-----/kWh"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <!-- December -->
+            <RelativeLayout
+                android:id="@+id/textViewDecember"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/rounded_button_light_blue">
+
+                <TextView
+                    android:id="@+id/DecemberLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:text="@string/december"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/LineDecember"
+                    android:layout_width="0dp"
+                    android:layout_height="2dp"
+                    android:layout_toEndOf="@id/DecemberLabel"
+                    android:layout_toStartOf="@id/kwhDecember"
+                    android:layout_alignBaseline="@id/DecemberLabel"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@color/black" />
+
+                <TextView
+                    android:id="@+id/kwhDecember"
+                    android:layout_width="110dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/squadaone_regular"
+                    android:text="-----/kWh"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Bottom Navigation -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:itemIconSize="33dp"
+        app:itemIconTint="@color/bottom_nav_colors"
+        app:menu="@menu/bottom_nav_menu" />
+
+</LinearLayout>

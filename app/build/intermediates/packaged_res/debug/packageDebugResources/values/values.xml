@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="appliances_list">
+        <item>Fan</item>
+        <item>Air Conditioner</item>
+        <item>Washing Machine</item>
+        <item>Refrigerator</item>
+        <item>Television</item>
+        <item>Computer</item>
+        <item>Light Bulb</item>
+        <item>Microwave</item>
+        <item>Rice Cooker</item>
+    </string-array>
+    <string-array name="household_types">
+        <item>Apartment</item>
+        <item>Family</item>
+        <item>House</item>
+        <item>Single</item>
+    </string-array>
+    <color name="app_background">#F8FAFF</color>
+    <color name="black">#FF000000</color>
+    <color name="button_dark_blue">#779BFF</color>
+    <color name="button_light_blue">#D9E5FF</color>
+    <color name="button_mid_blue">#B7CFFF</color>
+    <color name="dark_blue">#1F2B38</color>
+    <color name="gradient_bottom">#6E8BCF</color>
+    <color name="gradient_top">#AFC8FF</color>
+    <color name="highlighted_text_red">#FF5A5A</color>
+    <color name="icons">#526A8F</color>
+    <color name="light_blue">#EAF0FF</color>
+    <color name="medium_blue">#B7CFFF</color>
+    <color name="primary_blue_accent">#5B8DFF</color>
+    <color name="primary_navy_text">#1F2B38</color>
+    <color name="primary_text">#1E2940</color>
+    <color name="red">#FF5A5A</color>
+    <color name="secondary_text">#5D6B82</color>
+    <color name="slider_knob">#6A8FFF</color>
+    <color name="slider_track">#C4D4FF</color>
+    <color name="soft_blue_card">#EAF0FF</color>
+    <color name="threshold_card">#EDF3FF</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">WattWise Pro</string>
+    <string name="april">April</string>
+    <string name="august">August</string>
+    <string name="daily">Daily</string>
+    <string name="december">December</string>
+    <string name="digital_energy_tracker">Digital Energy Tracker</string>
+    <string name="don_t_have_an_account">Don\'t have an account</string>
+    <string name="email">Email</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="february">February</string>
+    <string name="first_week">First Week</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="fourth_week">Fourth Week</string>
+    <string name="fri">Fri</string>
+    <string name="fri2">Fri</string>
+    <string name="history">History</string>
+    <string name="january">January</string>
+    <string name="july">July</string>
+    <string name="june">June</string>
+    <string name="kwh">──────────────── kWh</string>
+    <string name="line">──────────────</string>
+    <string name="line2">──────────────</string>
+    <string name="line3">──────────────</string>
+    <string name="line4">──────────────</string>
+    <string name="log_in">Log In</string>
+    <string name="log_in_to">Log in to</string>
+    <string name="march">March</string>
+    <string name="may">May</string>
+    <string name="mon">Mon</string>
+    <string name="monday">Monday</string>
+    <string name="monthly">Monthly</string>
+    <string name="monthly_usage">Monthly Usage</string>
+    <string name="november">November</string>
+    <string name="october">October</string>
+    <string name="password">Password</string>
+    <string name="sat">Sat</string>
+    <string name="second_week">Second Week</string>
+    <string name="second_week2">Second Week</string>
+    <string name="select_household_type">Select Household Type</string>
+    <string name="september">September</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_up_in_to">Sign up in to</string>
+    <string name="sun">Sun</string>
+    <string name="third_week">Third Week</string>
+    <string name="thu">Thu</string>
+    <string name="thu2">Thu</string>
+    <string name="thur">Thur</string>
+    <string name="tips">Tips</string>
+    <string name="tue">Tue</string>
+    <string name="tue2">Tue</string>
+    <string name="wattwise">Wattwise</string>
+    <string name="wattwiselogo">WattWiseLogo</string>
+    <string name="wed">Wed</string>
+    <string name="wed2">Wed</string>
+    <string name="weekly">Weekly</string>
+    <string name="weekly_usage">Weekly Usage</string>
+    <string name="weeklycalendar">WeeklyCalendar</string>
+    <style name="Base.Theme.WattWisePro" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="colorAccent">#6A8FFF</item>
+        <item name="colorPrimary">#5B8DFF</item>
+        <item name="colorPrimaryDark">#1F2B38</item>
+    </style>
+    <style name="CalendarDateTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#1E2940</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="CalendarHeaderTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#1E2940</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="CalendarWeekDayTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#1E2940</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Theme.WattWisePro" parent="Base.Theme.WattWisePro"/>
+</resources>
