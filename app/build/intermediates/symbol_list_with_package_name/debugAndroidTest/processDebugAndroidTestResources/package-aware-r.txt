@@ -1,0 +1,3 @@
+myapplication.test.wattwisepro.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

@@ -1,0 +1,6 @@
+myapplication.test.wattwisepro.test.app-tracing-1.2.0-0 C:\Users\vonne\.gradle\caches\8.13\transforms\993daf97268b9071261bf79877b6a2a7\transformed\tracing-1.2.0\res
+myapplication.test.wattwisepro.test.app-core-1.7.0-1 C:\Users\vonne\.gradle\caches\8.13\transforms\dea86fc9b11344baa1571b222b96fd91\transformed\core-1.7.0\res
+myapplication.test.wattwisepro.test.app-androidTest-2 C:\Users\vonne\AndroidStudioProjects\WattWisePro\app\build\generated\res\resValues\androidTest\debug
+myapplication.test.wattwisepro.test.app-mergeDebugAndroidTestResources-3 C:\Users\vonne\AndroidStudioProjects\WattWisePro\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+myapplication.test.wattwisepro.test.app-mergeDebugAndroidTestResources-4 C:\Users\vonne\AndroidStudioProjects\WattWisePro\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+myapplication.test.wattwisepro.test.app-debugAndroidTest-5 C:\Users\vonne\AndroidStudioProjects\WattWisePro\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
