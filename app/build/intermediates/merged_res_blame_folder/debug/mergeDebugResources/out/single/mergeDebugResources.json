@@ -1,0 +1,266 @@
+[
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\color_bottom_nav_colors.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\color\\bottom_nav_colors.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\layout_weekly_main.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\layout\\weekly_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\layout_monthly.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\layout\\monthly.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\drawable_w_wise_logo.png.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\drawable\\w_wise_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\drawable_home_nav.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\drawable\\home_nav.xml"
+    },
+    {
+        "merged": "myapplication.test.wattwisepro.app-debug-33:/layout_dialog_hourly_graph.xml.flat",
+        "source": "myapplication.test.wattwisepro.app-main-35:/layout/dialog_hourly_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\layout_history.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\layout\\history.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\drawable_seekbar_progress.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\drawable\\seekbar_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\drawable_line2_sq.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\drawable\\line2_sq.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\drawable_button_light_blue.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\drawable\\button_light_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\drawable_ic_water_droplet.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\drawable\\ic_water_droplet.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\drawable_line_sq.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\drawable\\line_sq.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\drawable_rounded_button2.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\drawable\\rounded_button2.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\drawable_ic_electric_plug.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\drawable\\ic_electric_plug.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\layout_login_main.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\layout\\login_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\drawable_ic_battery.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\drawable\\ic_battery.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\drawable_rounded_button.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\drawable\\rounded_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\drawable_rounded_button_light_blue.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\drawable\\rounded_button_light_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\drawable_slider_knob.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\drawable\\slider_knob.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\layout_daily_main.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\layout\\daily_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\drawable_slider_progress.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\drawable\\slider_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\drawable_threshold_card.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\drawable\\threshold_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\drawable_button_dark_blue.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\drawable\\button_dark_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\drawable_settings_nav.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\drawable\\settings_nav.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\drawable_slider_track.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\drawable\\slider_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\font_squadaone_regular.ttf.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\font\\squadaone_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\drawable_baseline_account_circle_24.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\drawable\\baseline_account_circle_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\drawable_baseline_calendar_month_24.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\drawable\\baseline_calendar_month_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\font_inter_18pt_black.ttf.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\font\\inter_18pt_black.ttf"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\layout_tips.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\layout\\tips.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\drawable_baseline_arrow_back_24.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\drawable\\baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\layout_table_row_item.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\layout\\table_row_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\drawable_horizontal_line.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\drawable\\horizontal_line.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\layout_home_main.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\layout\\home_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\drawable_rounded_button3squadacolor.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\drawable\\rounded_button3squadacolor.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\layout_cal_main.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\layout\\cal_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\drawable_calendar_selected_date.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\drawable\\calendar_selected_date.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\drawable_ic_lightning_bolt.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\drawable\\ic_lightning_bolt.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\drawable_button_medium_blue.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\drawable\\button_medium_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\drawable_cal_nav.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\drawable\\cal_nav.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\layout_dialog_hourly_graph.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\layout\\dialog_hourly_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\layout_settings.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\layout\\settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-debug-33:\\layout_home_nav.xml.flat",
+        "source": "C:\\Users\\vonne\\.gradle\\daemon\\8.13\\myapplication.test.wattwisepro.app-main-35:\\layout\\home_nav.xml"
+    }
+]
