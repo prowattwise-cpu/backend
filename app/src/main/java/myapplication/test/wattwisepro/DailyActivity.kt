@@ -201,9 +201,26 @@ class DailyActivity : AppCompatActivity() {
                 
                 if (response.isSuccessful && response.body()?.success == true) {
                     val hourlyData = response.body()?.data
-                    if (hourlyData != null) {
-                        setupChart(chart, hourlyData)
-                    } else {
+if (hourlyData != null) {
+    // Always build a 24‑hour list (0..23), fill with zeros first
+    val padded = MutableList(24) { hour ->
+        myapplication.test.wattwisepro.model.HourlyUsageItem(
+            hour = hour,
+            wattage = 0.0,
+            max_power = 0.0,
+            min_power = 0.0,
+            record_count = 0
+        )
+    }
+    // Overlay real data where available
+    hourlyData.forEach { item ->
+        if (item.hour in 0..23) {
+            padded[item.hour] = item
+        }
+    }
+    // Use padded list for the chart
+    setupChart(chart, padded)
+} else {
                         Toast.makeText(this@DailyActivity, "No hourly data available", Toast.LENGTH_SHORT).show()
                         dialog.dismiss()
                     }
